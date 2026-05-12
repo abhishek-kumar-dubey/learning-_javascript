@@ -66,10 +66,6 @@ powerOutput = powersOfNumbers(arr);
 
 // another implementation of higher order function
 
-// function wrapper(num, n){
-//     return num**n;
-// }
-
 function numberPower(wrapper, arr){
     let numberPowered = [];
     for (let num of arr){
